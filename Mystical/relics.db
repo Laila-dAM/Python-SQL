@@ -8,3 +8,10 @@ CREATE TABLE relics (
 
 INSERT INTO relics (name, power, location, status, history)
 VALUES ('Flame of Eternity', 'Fire Control', 'Volcano of Darkness', 'active', 'A flame that burns forever...');
+
+SELECT * FROM relics WHERE power LIKE '%Fire%';
+
+SELECT * FROM relics WHERE location LIKE '%Volcano%';
+
+SELECT * FROM relics WHERE status = 'lost' ORDER BY power DESC;
+
