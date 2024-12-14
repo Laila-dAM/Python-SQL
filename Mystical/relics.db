@@ -5,3 +5,6 @@ CREATE TABLE relics (
     status TEXT CHECK(status IN ('active', 'lost', 'destroyed')),
     history TEXT
 );
+
+INSERT INTO relics (name, power, location, status, history)
+VALUES ('Flame of Eternity', 'Fire Control', 'Volcano of Darkness', 'active', 'A flame that burns forever...');
