@@ -1,0 +1,7 @@
+CREATE TABLE relics (
+    name TEXT,
+    power TEXT,
+    location TEXT,
+    status TEXT CHECK(status IN ('active', 'lost', 'destroyed')),
+    history TEXT
+);
