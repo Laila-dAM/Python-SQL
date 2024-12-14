@@ -1,0 +1,1 @@
+A system to catalog and manage mystical relics discovered around the world, storing key details such as name, primary power, discovery location, status, and associated history. It allows for registering, updating, searching, and generating reports on relics, including the most powerful lost relics.
